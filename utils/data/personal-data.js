@@ -1,0 +1,17 @@
+export const personalData = {
+  name: "Kelvin Ekisa",
+  profile: '/profile.png',
+  designation: "Software Developer",
+  description: "C.E.O. Kelvin Ekisa. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on Python and JavaScript and I love to do most of the things using them. I am available for any kind of job opportunity that suits my skills and interests.",
+  email: 'kelvin.ekisa10@gmail.com',
+  phone: '+254 112 442 273',
+  address: 'Ngong Road, Nairobi, Kenya',
+  github: 'https://github.com/kelvinekisa',
+  facebook: 'https://www.facebook.com/kelvinekisa/',
+  linkedIn: 'https://www.linkedin.com/in/kelvin-ekisa-b561b6224/',
+  twitter: 'https://twitter.com/kelvinekisa',
+  stackOverflow: 'https://stackoverflow.com/users/19044510/kelvin-ekisa',
+  leetcode: "https://leetcode.com/said3812/",
+  devUsername: "sTheEkisa's",
+  resume: 'https://www.linkedin.com/in/kelvin-ekisa-b561b6224/',
+}

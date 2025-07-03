@@ -1,1 +1,0 @@
-export { BlogsSection } from "./BlogSection";
