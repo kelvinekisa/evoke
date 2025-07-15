@@ -1,8 +1,8 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2021 - Present",
+    title: "B. Tech Communication and Computer Networks",
+    duration: "Present",
     institution: "The Technical University of Kenya",
   },
   {
