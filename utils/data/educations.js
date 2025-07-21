@@ -13,7 +13,7 @@ export const educations = [
   },
   {
     id: 3,
-    title: "Kenya Certificate of Primary Educate",
+    title: "Kenya Certificate of Primary Education",
     duration: "2016",
     institution: "Akichelesit Primary School",
   }
