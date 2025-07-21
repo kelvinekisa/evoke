@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'kelvinekisa8@gmail.com',
+    email: 'kelvin.ekisa10@gmail.com',
     phone: '+254 112 442 273',
     address: 'Ngong Road, Nairobi, Kenya',
     github: 'https://github.com/kelvinekisa',
