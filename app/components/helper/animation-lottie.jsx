@@ -1,19 +1,34 @@
-"use client"
+"use client";
 
-import Lottie from "lottie-react";
+import dynamic from 'next/dynamic';
+import React from 'react';
 
-const AnimationLottie = ({ animationPath, width }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationPath,
-    style: {
-      width: '95%',
-    }
-  };
+// Dynamically import Lottie with SSR disabled
+const Lottie = dynamic(
+  () => import('lottie-react'),
+  { ssr: false }
+);
+
+const AnimationLottie = ({ animationPath, width = '95%' }) => {
+  // Use state to track client-side status
+  const [isClient, setIsClient] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    // Optional: Return a placeholder during SSR
+    return <div style={{ width, height: 'auto' }} />;
+  }
 
   return (
-    <Lottie {...defaultOptions} />
+    <Lottie
+      animationData={animationPath}
+      loop={true}
+      autoplay={true}
+      style={{ width }}
+    />
   );
 };
 
